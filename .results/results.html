@@ -1,0 +1,365 @@
+<html lang="en"><head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>ccbp test reporter</title>
+            <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+	        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/522ee478c4.js" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.3.0/alpine.js"></script>
+            <script src="js/view.js"></script>
+        </head><body><div id="test-results">{
+  &quot;numFailedTestSuites&quot;: 1,
+  &quot;numFailedTests&quot;: 11,
+  &quot;numPassedTestSuites&quot;: 0,
+  &quot;numPassedTests&quot;: 0,
+  &quot;numPendingTestSuites&quot;: 0,
+  &quot;numPendingTests&quot;: 0,
+  &quot;numRuntimeErrorTestSuites&quot;: 0,
+  &quot;numTodoTests&quot;: 0,
+  &quot;numTotalTestSuites&quot;: 1,
+  &quot;numTotalTests&quot;: 11,
+  &quot;openHandles&quot;: [],
+  &quot;snapshot&quot;: {
+    &quot;added&quot;: 0,
+    &quot;didUpdate&quot;: false,
+    &quot;failure&quot;: false,
+    &quot;filesAdded&quot;: 0,
+    &quot;filesRemoved&quot;: 0,
+    &quot;filesRemovedList&quot;: [],
+    &quot;filesUnmatched&quot;: 0,
+    &quot;filesUpdated&quot;: 0,
+    &quot;matched&quot;: 0,
+    &quot;total&quot;: 0,
+    &quot;unchecked&quot;: 0,
+    &quot;uncheckedKeysByFile&quot;: [],
+    &quot;unmatched&quot;: 0,
+    &quot;updated&quot;: 0
+  },
+  &quot;startTime&quot;: 1689675438791,
+  &quot;success&quot;: false,
+  &quot;testResults&quot;: [
+    {
+      &quot;leaks&quot;: false,
+      &quot;numFailingTests&quot;: 11,
+      &quot;numPassingTests&quot;: 0,
+      &quot;numPendingTests&quot;: 0,
+      &quot;numTodoTests&quot;: 0,
+      &quot;openHandles&quot;: [],
+      &quot;perfStats&quot;: {
+        &quot;end&quot;: 1689675460179,
+        &quot;runtime&quot;: 10916,
+        &quot;slow&quot;: true,
+        &quot;start&quot;: 1689675449263
+      },
+      &quot;skipped&quot;: false,
+      &quot;snapshot&quot;: {
+        &quot;added&quot;: 0,
+        &quot;fileDeleted&quot;: false,
+        &quot;matched&quot;: 0,
+        &quot;unchecked&quot;: 0,
+        &quot;unmatched&quot;: 0,
+        &quot;updated&quot;: 0,
+        &quot;uncheckedKeys&quot;: []
+      },
+      &quot;testFilePath&quot;: &quot;/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js&quot;,
+      &quot;testResults&quot;: [
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 49,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {
+                &quot;matcherResult&quot;: {
+                  &quot;actual&quot;: &quot;undefined&quot;,
+                  &quot;expected&quot;: &quot;function&quot;,
+                  &quot;name&quot;: &quot;toBe&quot;,
+                  &quot;pass&quot;: false
+                }
+              },
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;function\&quot;\nReceived: \&quot;undefined\&quot;&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;function\&quot;\nReceived: \&quot;undefined\&quot;\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:30:24)\n    at Object.asyncJestTest (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: \&quot;function\&quot;\nReceived: \&quot;undefined\&quot;\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:30:24)\n    at Object.asyncJestTest (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseAn Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_1&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:35:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:35:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe GET request with path &#x27;/movies/&#x27; should return the list of all movie names in the movies database as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/movies/&#x27; should return the list of all movie names in the movies database as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_2&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 5,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:259:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:259:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe GET request with path &#x27;/movies/:movieId/&#x27; should return the details of a specific movie in the movies database as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/movies/:movieId/&#x27; should return the details of a specific movie in the movies database as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_3&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 5,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:274:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;post&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:274:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe POST request with path &#x27;/movies/&#x27; should return &#x27;Movie Successfully Added&#x27; text as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The POST request with path &#x27;/movies/&#x27; should return &#x27;Movie Successfully Added&#x27; text as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_4&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:290:22)\n    at Object.asyncJestTest (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:290:22)\n    at Object.asyncJestTest (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe database should be updated on the post request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the post request&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_5&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;put&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;put&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:301:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;put&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:301:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe PUT request with path &#x27;/movies/:movieId/&#x27; should return &#x27;Movie Details Updated&#x27; text as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The PUT request with path &#x27;/movies/:movieId/&#x27; should return &#x27;Movie Details Updated&#x27; text as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_6&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:316:27)\n    at Object.asyncJestTest (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:316:27)\n    at Object.asyncJestTest (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe database should be updated on the put request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the put request&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_7&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 1,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:328:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;delete&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:328:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe DELETE request with path &#x27;/movies/:movieId/&#x27; should return &#x27;Movie Removed&#x27; text as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The DELETE request with path &#x27;/movies/:movieId/&#x27; should return &#x27;Movie Removed&#x27; text as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_8&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 4,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:336:27)\n    at Object.asyncJestTest (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of null\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:336:27)\n    at Object.asyncJestTest (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe database should be updated on the delete request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The database should be updated on the delete request&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_9&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 3,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:343:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:343:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe GET request with path &#x27;/directors/&#x27; should return the list of all the directors in the movies database as a response&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/directors/&#x27; should return the list of all the directors in the movies database as a response&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_10&quot;
+        },
+        {
+          &quot;ancestorTitles&quot;: [
+            &quot;Tests for CRUD Operations on Movies Database&quot;
+          ],
+          &quot;duration&quot;: 2,
+          &quot;failureDetails&quot;: [
+            {
+              &quot;actual&quot;: &quot;&quot;,
+              &quot;error&quot;: {},
+              &quot;expected&quot;: &quot;&quot;,
+              &quot;matcherName&quot;: &quot;&quot;,
+              &quot;message&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined&quot;,
+              &quot;passed&quot;: false,
+              &quot;stack&quot;: &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:546:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+            }
+          ],
+          &quot;failureMessages&quot;: [
+            &quot;TypeError: Cannot read property &#x27;get&#x27; of undefined\n    at Object.&lt;anonymous&gt; (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/.tests/index.test.js:546:8)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:45:12\n    at new Promise (&lt;anonymous&gt;)\n    at mapper (/home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:28:19)\n    at /home/nxtwave/nodejs/coding-practices/coding-practice-5a/node_modules/.pnpm/jest-jasmine2@26.6.3/node_modules/jest-jasmine2/build/queueRunner.js:75:41\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)&quot;
+          ],
+          &quot;fullName&quot;: &quot;Tests for CRUD Operations on Movies DatabaseThe GET request with path &#x27;/directors/:directorId/movies/&#x27; should return the list of all movie names directed by a specific director as a response to the success of the request&quot;,
+          &quot;location&quot;: null,
+          &quot;numPassingAsserts&quot;: 0,
+          &quot;status&quot;: &quot;failed&quot;,
+          &quot;title&quot;: &quot;The GET request with path &#x27;/directors/:directorId/movies/&#x27; should return the list of all movie names directed by a specific director as a response to the success of the request&quot;,
+          &quot;id&quot;: &quot;NJSCPDIITB_TEST_11&quot;
+        }
+      ],
+      &quot;failureMessage&quot;: &quot;  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_1:::An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax\n\n    expect(received).toBe(expected) // Object.is equality\n\n    Expected: \&quot;function\&quot;\n    Received: \&quot;undefined\&quot;\n\n      28 |\n      29 |   it(\&quot;:::NJSCPDIITB_TEST_1:::An Express instance should be exported from the &#x27;app.js&#x27; file using the default export syntax\&quot;, () =&gt; {\n    &gt; 30 |     expect(typeof app).toBe(\&quot;function\&quot;);\n         |                        ^\n      31 |   });\n      32 |\n      33 |   it(\&quot;:::NJSCPDIITB_TEST_2:::The GET request with path &#x27;/movies/&#x27; should return the list of all movie names in the movies database as a response\&quot;, (done) =&gt; {\n\n      at Object.&lt;anonymous&gt; (index.test.js:30:24)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_2:::The GET request with path &#x27;/movies/&#x27; should return the list of all movie names in the movies database as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      33 |   it(\&quot;:::NJSCPDIITB_TEST_2:::The GET request with path &#x27;/movies/&#x27; should return the list of all movie names in the movies database as a response\&quot;, (done) =&gt; {\n      34 |     appInstance\n    &gt; 35 |       .get(\&quot;/movies/\&quot;)\n         |        ^\n      36 |       .expect(200)\n      37 |       .expect([\n      38 |         {\n\n      at Object.&lt;anonymous&gt; (index.test.js:35:8)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_3:::The GET request with path &#x27;/movies/:movieId/&#x27; should return the details of a specific movie in the movies database as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      257 |   it(\&quot;:::NJSCPDIITB_TEST_3:::The GET request with path &#x27;/movies/:movieId/&#x27; should return the details of a specific movie in the movies database as a response\&quot;, async (done) =&gt; {\n      258 |     appInstance\n    &gt; 259 |       .get(\&quot;/movies/51/\&quot;)\n          |        ^\n      260 |       .expect(200)\n      261 |       .expect({\n      262 |         movieId: 51,\n\n      at Object.&lt;anonymous&gt; (index.test.js:259:8)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_4:::The POST request with path &#x27;/movies/&#x27; should return &#x27;Movie Successfully Added&#x27; text as a response to the success of the request\n\n    TypeError: Cannot read property &#x27;post&#x27; of undefined\n\n      272 |   it(\&quot;:::NJSCPDIITB_TEST_4:::The POST request with path &#x27;/movies/&#x27; should return &#x27;Movie Successfully Added&#x27; text as a response to the success of the request\&quot;, async (done) =&gt; {\n      273 |     appInstance\n    &gt; 274 |       .post(\&quot;/movies/\&quot;)\n          |        ^\n      275 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      276 |       .send({\n      277 |         directorId: 4,\n\n      at Object.&lt;anonymous&gt; (index.test.js:274:8)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_5:::The database should be updated on the post request\n\n    TypeError: Cannot read property &#x27;get&#x27; of null\n\n      288 |   it(\&quot;:::NJSCPDIITB_TEST_5:::The database should be updated on the post request\&quot;, async () =&gt; {\n      289 |     expect(\n    &gt; 290 |       await database.get(`SELECT * FROM movie WHERE movie_name=&#x27;Anonymous&#x27;`)\n          |                      ^\n      291 |     ).toEqual({\n      292 |       movie_id: 117,\n      293 |       director_id: 4,\n\n      at Object.&lt;anonymous&gt; (index.test.js:290:22)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_6:::The PUT request with path &#x27;/movies/:movieId/&#x27; should return &#x27;Movie Details Updated&#x27; text as a response to the success of the request\n\n    TypeError: Cannot read property &#x27;put&#x27; of undefined\n\n      299 |   it(\&quot;:::NJSCPDIITB_TEST_6:::The PUT request with path &#x27;/movies/:movieId/&#x27; should return &#x27;Movie Details Updated&#x27; text as a response to the success of the request\&quot;, (done) =&gt; {\n      300 |     appInstance\n    &gt; 301 |       .put(\&quot;/movies/65/\&quot;)\n          |        ^\n      302 |       .set(\&quot;Accept\&quot;, \&quot;application/json\&quot;)\n      303 |       .send({\n      304 |         directorId: 13,\n\n      at Object.&lt;anonymous&gt; (index.test.js:301:8)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_7:::The database should be updated on the put request\n\n    TypeError: Cannot read property &#x27;get&#x27; of null\n\n      314 |\n      315 |   it(\&quot;:::NJSCPDIITB_TEST_7:::The database should be updated on the put request\&quot;, async () =&gt; {\n    &gt; 316 |     expect(await database.get(`SELECT * FROM movie WHERE movie_id=65`)).toEqual(\n          |                           ^\n      317 |       {\n      318 |         movie_id: 65,\n      319 |         director_id: 13,\n\n      at Object.&lt;anonymous&gt; (index.test.js:316:27)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_8:::The DELETE request with path &#x27;/movies/:movieId/&#x27; should return &#x27;Movie Removed&#x27; text as a response to the success of the request\n\n    TypeError: Cannot read property &#x27;delete&#x27; of undefined\n\n      326 |   it(\&quot;:::NJSCPDIITB_TEST_8:::The DELETE request with path &#x27;/movies/:movieId/&#x27; should return &#x27;Movie Removed&#x27; text as a response to the success of the request\&quot;, (done) =&gt; {\n      327 |     appInstance\n    &gt; 328 |       .delete(\&quot;/movies/65/\&quot;)\n          |        ^\n      329 |       .expect(200)\n      330 |       .expect(\&quot;Movie Removed\&quot;)\n      331 |       .then((error, response) =&gt; {\n\n      at Object.&lt;anonymous&gt; (index.test.js:328:8)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_9:::The database should be updated on the delete request\n\n    TypeError: Cannot read property &#x27;get&#x27; of null\n\n      334 |   });\n      335 |   it(\&quot;:::NJSCPDIITB_TEST_9:::The database should be updated on the delete request\&quot;, async () =&gt; {\n    &gt; 336 |     expect(await database.get(`SELECT * FROM movie WHERE movie_id=65`)).toEqual(\n          |                           ^\n      337 |       undefined\n      338 |     );\n      339 |   });\n\n      at Object.&lt;anonymous&gt; (index.test.js:336:27)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_10:::The GET request with path &#x27;/directors/&#x27; should return the list of all the directors in the movies database as a response\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      341 |   it(\&quot;:::NJSCPDIITB_TEST_10:::The GET request with path &#x27;/directors/&#x27; should return the list of all the directors in the movies database as a response\&quot;, (done) =&gt; {\n      342 |     appInstance\n    &gt; 343 |       .get(\&quot;/directors/\&quot;)\n          |        ^\n      344 |       .expect(200)\n      345 |       .expect([\n      346 |         {\n\n      at Object.&lt;anonymous&gt; (index.test.js:343:8)\n\n  ● :::NJSCPDIITB_TEST_SUITE_1:::Tests for CRUD Operations on Movies Database › :::NJSCPDIITB_TEST_11:::The GET request with path &#x27;/directors/:directorId/movies/&#x27; should return the list of all movie names directed by a specific director as a response to the success of the request\n\n    TypeError: Cannot read property &#x27;get&#x27; of undefined\n\n      544 |   it(\&quot;:::NJSCPDIITB_TEST_11:::The GET request with path &#x27;/directors/:directorId/movies/&#x27; should return the list of all movie names directed by a specific director as a response to the success of the request\&quot;, (done) =&gt; {\n      545 |     appInstance\n    &gt; 546 |       .get(\&quot;/directors/4/movies\&quot;)\n          |        ^\n      547 |       .expect(200)\n      548 |       .expect([\n      549 |         {\n\n      at Object.&lt;anonymous&gt; (index.test.js:546:8)\n&quot;
+    }
+  ],
+  &quot;wasInterrupted&quot;: false
+}</div></body></html>
